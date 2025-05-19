@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #f4f4f4;
+}
+
+.toolbar {
+  background: #333;
+  padding: 10px;
+  text-align: center;
+}
+
+.toolbar button {
+  margin: 5px;
+  padding: 10px 20px;
+  color: white;
+  background: #555;
+  border: none;
+  cursor: pointer;
+}
+
+.canvas-container {
+  position: relative;
+  width: 800px;
+  margin: 20px auto;
+}
+
+#image2D, #canvas2D {
+  max-width: 100%;
+  display: block;
+}
+
+#canvas2D {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
